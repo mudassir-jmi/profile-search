@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile | Search App</title>
+    <script src="https://kit.fontawesome.com/7c78603360.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="whole">
+        <div class="header container">
+            <div class="header1">
+                <h1>Search Github Profile</h1>
+                <!-- <h3>Lets stalk someone on github</h3> -->
+            </div>
+            <div class="header2">
+            </div>
+        </div>
+        <div class="search container">
+            <form action="" class="form" id="theform">
+                <input type="text" id="searchuser" spellcheck="false" required>
+                <button id="submit">
+                <i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="container" id="result">
+            <div class="left">
+                <img src="" alt="" id="pfp">
+            </div>
+            <div class="right">
+                <h1 id="name"></h1>
+                <a href="" id="username-url" target="_blank">
+                    <h4 id="username"></h4>
+                </a>
+                <p id="bio"></p>
+                <div class="main">
+                    <div class="one">
+                        <h4>Followers</h4>
+                        <h5 id="follower"></h5>
+                    </div>
+                    <div class="two">
+                        <h4>Following</h4>
+                        <h5 id="following"></h5>
+                    </div>
+                    <div class="three">
+                        <h4>Repositories</h4>
+                        <h5 id="repo"></h5>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="top">
+                        <div class="adress">
+                            <i class="fa-solid fa-location-dot lower-icon"></i>
+                            <p id="location"></p>
+                        </div>
+                        <div class="adress adress2">
+                            <i class="fa-solid fa-link lower-icon"></i>
+                            <a href="" id="website-url" target="_blank">
+                                <p id="website"></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="adress">
+                            <i class="fa-brands fa-square-twitter lower-icon"></i>
+                            <a href="" id="twitter-url" target="_blank">
+                                <p id="twitter"></p>
+                            </a>
+                        </div>
+                        <div class="adress adress2">
+                            <i class="fa-regular fa-building lower-icon"></i>
+                            <p id="organization"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="join">
+                    Join date:&ThickSpace;<p id="joindate"></p>
+                </div>
+            </div>
+        </div>
+        <div class="thecredit container">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <!-- Custom Js File -->
+    <script src="./script.js"></script>
+</body>
+</html>
